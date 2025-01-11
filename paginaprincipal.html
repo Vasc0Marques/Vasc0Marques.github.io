@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/john-doe.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Vasco Marques</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="paginaprincipal.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Olá, O meu nome é <p></p>vasco marques</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Sou estudante do TESP de Programação de Sistemas de Informação no segundo ano de curso.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="#projects" class="btn btn--bg">Projetos</a>
+        </div>
+      </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Sobre Mim</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Sou um estudanye do TESP de Programação de Sitemas de informação no 
+                segundo ano do curso, ao longo do curso tenho adquirido conhecimentos 
+                em varias areas da programação, como HTML, CSS, JavaScript, PHP e controlo de versões de Github.
+              </p>
+            </div>
+        
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Competências</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">Mysql</div>
+              <div class="skills__skill">Github</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projetos</span>
+          <span class="heading-sec__sub">
+            Porjetos desenvolvidos do longo do curso a respeito de Desenvolvimento Web
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/HomeProjectTicketGo.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">TicketGo</h3>
+              <p class="projects__row-content-desc">
+                TickeGo é um projeto Yii2 composto por um backend onde são adicionados dados que ficam armanezenados
+                 em uma base de dados Mysql, é composto tambem por um frontend que o cliente acede e pode pesquisar 
+                 eventos, ver os detalhes dos eventos e comprar bilhetes.
+              </p>
+              <a
+                href="./TicketGo.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Detalhes do Projeto</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/HomeProjectPWC.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 2</h3>
+              <p class="projects__row-content-desc">
+                Este site é um projeto desenvolvido em HTML, CSS e JavaScript que permite aos utilizadores acessarem a informações 
+                detalhadas sobre paises ao redor do mundo.
+                Este projeto utiliza a API Rest Countries para apresentar informações detalhadas sobre diferentes países. 
+                ermite aos utilizadores explorar dados como bandeiras, populações, capitais e outras estatísticas importantes.
+              </p>
+              <a
+                href="./SitePaises.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Detalhes do Projeto</a
+              >
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
