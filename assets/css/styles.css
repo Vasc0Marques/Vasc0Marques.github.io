@@ -86,6 +86,7 @@ textarea {
 .heading-sec__main {
   display: block;
   font-size: 4rem;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   letter-spacing: 3px;
@@ -133,6 +134,7 @@ textarea {
 
 .main-container {
   max-width: 120rem;
+  color: #333;
   margin: auto;
   width: 92%; }
 
@@ -165,7 +167,8 @@ textarea {
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
-  padding: 12rem 0; }
+  padding: 12rem 0; 
+  background: black; }
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
       padding: 8rem 0; } }
@@ -185,7 +188,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/img/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.856), rgba(27, 27, 27, 0.795)), url(../../assets/img/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -247,7 +250,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: black; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -259,6 +262,7 @@ textarea {
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
+      color: #fff;
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
@@ -307,6 +311,7 @@ textarea {
         align-items: center; } }
     .projects__row-content-title {
       font-weight: 700;
+      color: #eee;
       font-size: 2.8rem;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
@@ -314,7 +319,7 @@ textarea {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
-      color: grey;
+      color: rgb(153, 152, 152);
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
@@ -322,89 +327,10 @@ textarea {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
 
-.contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-size: cover;
-  background-position: center; }
-  .contact__form-container {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: white;
-    padding: 4rem;
-    margin-top: 6rem;
-    max-width: 80rem;
-    text-align: right;
-    width: 95%;
-    border-radius: 5px;
-    margin: 5rem auto 0 auto; }
-    @media only screen and (max-width: 37.5em) {
-      .contact__form-container {
-        padding: 3rem; } }
-  .contact__form-field {
-    margin-bottom: 4rem; }
-    @media only screen and (max-width: 37.5em) {
-      .contact__form-field {
-        margin-bottom: 3rem; } }
-  .contact__form-label {
-    color: #666;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    display: block;
-    text-align: left; }
-  .contact__form-input {
-    color: #333;
-    padding: 2rem;
-    width: 100%;
-    border: 1px solid #ebebeb;
-    font-size: 1.6rem;
-    letter-spacing: 0px;
-    background: #f0f0f0;
-    border-radius: 5px;
-    font-weight: 600;
-    /* Code for Modern Browsers */
-    /* Code for WebKit, Blink, Edge */
-    /* Code for Internet Explorer 10-11 */
-    /* Code for Microsoft Edge */
-    /* Code for Mozilla Firefox 4 to 18 */
-    /* Code for Mozilla Firefox 19+ */ }
-    .contact__form-input::placeholder {
-      color: #999;
-      font-weight: 600;
-      font-size: 1.6rem; }
-    .contact__form-input::-webkit-input-placeholder {
-      color: #999;
-      font-weight: 600;
-      font-size: 1.6rem; }
-    .contact__form-input:-ms-input-placeholder {
-      color: #999;
-      font-weight: 600;
-      font-size: 1.6rem; }
-    .contact__form-input::-ms-input-placeholder {
-      color: #999;
-      font-weight: 600;
-      font-size: 1.6rem; }
-    .contact__form-input:-moz-placeholder {
-      opacity: 1;
-      color: #999;
-      font-weight: 600;
-      font-size: 1.6rem; }
-    .contact__form-input::-moz-placeholder {
-      opacity: 1;
-      color: #999;
-      font-weight: 600;
-      font-size: 1.6rem; }
-  .contact__btn {
-    width: 30%;
-    padding: 2rem 4rem;
-    font-size: 1.6rem; }
-    @media only screen and (max-width: 37.5em) {
-      .contact__btn {
-        width: 100%; } }
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.856), rgba(27, 27, 27, 0.795)), url(../../assets/img/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -430,6 +356,10 @@ textarea {
     margin-top: 5rem;
     text-align: center; }
 
+.project-details {
+  background-color: #000;
+}
+
 .project-details__content {
   padding: 8rem 0;
   max-width: 90rem;
@@ -437,6 +367,7 @@ textarea {
   .project-details__content-title {
     font-weight: 700;
     font-size: 2.8rem;
+    color: #fff;
     margin-bottom: 3rem; }
     @media only screen and (max-width: 37.5em) {
       .project-details__content-title {
@@ -459,7 +390,7 @@ textarea {
   .project-details__desc-para {
     font-size: 1.8rem;
     line-height: 1.7;
-    color: grey;
+    color: rgb(163, 163, 163);
     margin-bottom: 2rem; }
 
 .project-details__tools-used {
@@ -498,7 +429,6 @@ textarea {
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -537,6 +467,7 @@ textarea {
   .header__logo-sub {
     font-size: 1.8rem;
     text-transform: uppercase;
+    color: #eee;
     font-weight: 700;
     letter-spacing: 1px; }
   .header__links {
@@ -548,7 +479,7 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #eee;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -667,10 +598,10 @@ textarea {
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: #b4b4b4; }
 
 .mouse {
   width: 25px;
